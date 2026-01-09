@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="serial-mcp logo" width="400">
+</p>
+
 # serial-mcp
 
 A minimal MCP server for non-blocking serial communication. Built for [Claude Code](https://claude.ai/code) to interact with Arduino, ESP32, and other serial devices without hanging.
@@ -22,6 +26,13 @@ Serial monitors like `screen` and `arduino-cli monitor` block the terminal and h
 
 ## Installation
 
+### Via Mint (recommended)
+
+```bash
+brew install mint
+mint install bmdragos/serial-mcp
+```
+
 ### Build from source
 
 ```bash
@@ -41,11 +52,13 @@ Add to your `~/.claude.json`:
   "mcpServers": {
     "serial": {
       "type": "stdio",
-      "command": "/path/to/serial-mcp"
+      "command": "~/.mint/bin/serial-mcp"
     }
   }
 }
 ```
+
+If you built from source, use the full path to `.build/release/serial-mcp` instead.
 
 ## Usage
 
