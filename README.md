@@ -25,7 +25,7 @@ Serial monitors like `screen` and `arduino-cli monitor` block the terminal and h
 ### Build from source
 
 ```bash
-git clone https://github.com/yourusername/serial-mcp.git
+git clone https://github.com/bmdragos/serial-mcp.git
 cd serial-mcp
 swift build -c release
 ```
