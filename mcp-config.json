@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "arduino": {
+      "type": "stdio",
+      "command": "/Users/bd/Coding/Arduino-CLI-MCP/.build/release/arduino-mcp",
+      "args": [],
+      "env": {}
+    }
+  }
+}
